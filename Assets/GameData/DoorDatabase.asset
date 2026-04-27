@@ -1,0 +1,144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: DoorDatabase
+  m_EditorClassIdentifier: Assembly-CSharp::DoorDatabase
+  sheetURL: https://docs.google.com/spreadsheets/d/e/2PACX-1vTz3FhvbUZ51J_0WIHH39Bsqm8M6-lRtLV_EgB_xyVmYUgcjrXM8YYNM1P3wf3VrTMLs33YDP00bykp/pub?gid=0&single=true&output=csv
+  doorList:
+  - ID: D001
+    Name: "\uD5E4\uD30C\uC774\uC2A4\uD1A0\uC2A4"
+    State: Closed
+    Direction: Front
+  - ID: D002
+    Name: "\uB358\uC804\uAD00\uB9AC\uC790"
+    State: Closed
+    Direction: Front
+  - ID: D003
+    Name: "\uBA40\uB9B0"
+    State: Locked
+    Direction: Front
+  - ID: D004
+    Name: ???
+    State: Locked
+    Direction: Side
+  - ID: D005
+    Name: "\uACE0\uBB38\uC11C"
+    State: Closed
+    Direction: Side
+  - ID: D006
+    Name: ???
+    State: Locked
+    Direction: Front
+  - ID: D007
+    Name: "\uAD00\uB9AC\uC778"
+    State: Closed
+    Direction: Front
+  - ID: D008
+    Name: ???
+    State: Locked
+    Direction: Side
+  - ID: D009
+    Name: "\uC57C\uC218\uC870\uB828\uC0AC"
+    State: Closed
+    Direction: Side
+  - ID: D010
+    Name: 
+    State: 
+    Direction: 
+  - ID: D011
+    Name: 
+    State: 
+    Direction: 
+  - ID: D012
+    Name: 
+    State: 
+    Direction: 
+  - ID: D013
+    Name: 
+    State: 
+    Direction: 
+  - ID: D014
+    Name: 
+    State: 
+    Direction: 
+  - ID: D015
+    Name: 
+    State: 
+    Direction: 
+  - ID: D016
+    Name: 
+    State: 
+    Direction: 
+  - ID: D017
+    Name: 
+    State: 
+    Direction: 
+  - ID: D018
+    Name: 
+    State: 
+    Direction: 
+  - ID: D019
+    Name: 
+    State: 
+    Direction: 
+  - ID: D020
+    Name: 
+    State: 
+    Direction: 
+  - ID: D021
+    Name: 
+    State: 
+    Direction: 
+  - ID: D022
+    Name: 
+    State: 
+    Direction: 
+  - ID: D023
+    Name: 
+    State: 
+    Direction: 
+  - ID: D024
+    Name: 
+    State: 
+    Direction: 
+  - ID: D025
+    Name: 
+    State: 
+    Direction: 
+  - ID: D026
+    Name: 
+    State: 
+    Direction: 
+  - ID: D027
+    Name: 
+    State: 
+    Direction: 
+  - ID: D028
+    Name: 
+    State: 
+    Direction: 
+  - ID: D029
+    Name: 
+    State: 
+    Direction: 
+  - ID: D030
+    Name: 
+    State: 
+    Direction: 
+  - ID: D031
+    Name: 
+    State: 
+    Direction: 
+  - ID: D032
+    Name: 
+    State: 
+    Direction: 
