@@ -1,0 +1,256 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: ItemDatabase
+  m_EditorClassIdentifier: Assembly-CSharp::ItemDatabase
+  sheetURL: https://docs.google.com/spreadsheets/d/e/2PACX-1vTz3FhvbUZ51J_0WIHH39Bsqm8M6-lRtLV_EgB_xyVmYUgcjrXM8YYNM1P3wf3VrTMLs33YDP00bykp/pub?gid=519302814&single=true&output=csv
+  itemList:
+  - ID: S1001
+    Name: Shovel_Basic
+    Type: Shovel
+    Icon: shovel_basic_0
+    ShadowIcon: shovel_basic_1
+    StatName: DigPower
+    StatValue: 1
+    Description: 
+  - ID: S1002
+    Name: Shovel_Blood
+    Type: Shovel
+    Icon: shovel_blood_0
+    ShadowIcon: shovel_blood_1
+    StatName: DigPower
+    StatValue: 1
+    Description: 
+  - ID: S1003
+    Name: Shovel_Crystal
+    Type: Shovel
+    Icon: shovel_crystal_0
+    ShadowIcon: shovel_crystal_1
+    StatName: DigPower
+    StatValue: 2
+    Description: 
+  - ID: S1004
+    Name: Shovel_Glass
+    Type: Shovel
+    Icon: shovel_glass_0
+    ShadowIcon: shovel_glass_1
+    StatName: DigPower
+    StatValue: 2
+    Description: 
+  - ID: S1005
+    Name: Shovel_Titanium
+    Type: Shovel
+    Icon: shovel_titanium_0
+    ShadowIcon: shovel_titanium_1
+    StatName: DigPower
+    StatValue: 3
+    Description: 
+  - ID: W1006
+    Name: Weapon_Dagger
+    Type: Weapon
+    Icon: weapon_dagger_0
+    ShadowIcon: weapon_dagger_1
+    StatName: Attack
+    StatValue: 1
+    Description: 
+  - ID: 1007
+    Name: 
+    Type: 
+    Icon: 
+    ShadowIcon: 
+    StatName: 
+    StatValue: 0
+    Description: 
+  - ID: 1008
+    Name: 
+    Type: 
+    Icon: 
+    ShadowIcon: 
+    StatName: 
+    StatValue: 0
+    Description: 
+  - ID: 1009
+    Name: 
+    Type: 
+    Icon: 
+    ShadowIcon: 
+    StatName: 
+    StatValue: 0
+    Description: 
+  - ID: 1010
+    Name: 
+    Type: 
+    Icon: 
+    ShadowIcon: 
+    StatName: 
+    StatValue: 0
+    Description: 
+  - ID: 1011
+    Name: 
+    Type: 
+    Icon: 
+    ShadowIcon: 
+    StatName: 
+    StatValue: 0
+    Description: 
+  - ID: 1012
+    Name: 
+    Type: 
+    Icon: 
+    ShadowIcon: 
+    StatName: 
+    StatValue: 0
+    Description: 
+  - ID: 1013
+    Name: 
+    Type: 
+    Icon: 
+    ShadowIcon: 
+    StatName: LightRange
+    StatValue: 0
+    Description: 
+  - ID: 1014
+    Name: 
+    Type: 
+    Icon: 
+    ShadowIcon: 
+    StatName: Defense
+    StatValue: 0
+    Description: 
+  - ID: 1015
+    Name: 
+    Type: 
+    Icon: 
+    ShadowIcon: 
+    StatName: 
+    StatValue: 0
+    Description: 
+  - ID: 1016
+    Name: 
+    Type: 
+    Icon: 
+    ShadowIcon: 
+    StatName: 
+    StatValue: 0
+    Description: 
+  - ID: 1017
+    Name: 
+    Type: 
+    Icon: 
+    ShadowIcon: 
+    StatName: 
+    StatValue: 0
+    Description: 
+  - ID: 1018
+    Name: 
+    Type: 
+    Icon: 
+    ShadowIcon: 
+    StatName: 
+    StatValue: 0
+    Description: 
+  - ID: 1019
+    Name: 
+    Type: 
+    Icon: 
+    ShadowIcon: 
+    StatName: 
+    StatValue: 0
+    Description: 
+  - ID: 1020
+    Name: 
+    Type: 
+    Icon: 
+    ShadowIcon: 
+    StatName: 
+    StatValue: 0
+    Description: 
+  - ID: 1021
+    Name: 
+    Type: 
+    Icon: 
+    ShadowIcon: 
+    StatName: 
+    StatValue: 0
+    Description: 
+  - ID: 1022
+    Name: 
+    Type: 
+    Icon: 
+    ShadowIcon: 
+    StatName: 
+    StatValue: 0
+    Description: 
+  - ID: 1023
+    Name: 
+    Type: 
+    Icon: 
+    ShadowIcon: 
+    StatName: 
+    StatValue: 0
+    Description: 
+  - ID: 1024
+    Name: 
+    Type: 
+    Icon: 
+    ShadowIcon: 
+    StatName: 
+    StatValue: 0
+    Description: 
+  - ID: 1025
+    Name: 
+    Type: 
+    Icon: 
+    ShadowIcon: 
+    StatName: 
+    StatValue: 0
+    Description: 
+  - ID: 1026
+    Name: 
+    Type: 
+    Icon: 
+    ShadowIcon: 
+    StatName: 
+    StatValue: 0
+    Description: 
+  - ID: 1027
+    Name: 
+    Type: 
+    Icon: 
+    ShadowIcon: 
+    StatName: 
+    StatValue: 0
+    Description: 
+  - ID: 1028
+    Name: 
+    Type: 
+    Icon: 
+    ShadowIcon: 
+    StatName: 
+    StatValue: 0
+    Description: 
+  - ID: 1029
+    Name: 
+    Type: 
+    Icon: 
+    ShadowIcon: 
+    StatName: 
+    StatValue: 0
+    Description: 
+  - ID: 1030
+    Name: 
+    Type: 
+    Icon: 
+    ShadowIcon: 
+    StatName: 
+    StatValue: 0
+    Description: 
