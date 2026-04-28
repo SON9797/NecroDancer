@@ -12,6 +12,8 @@ public class PlayerMoveMent : MonoBehaviour
 
     private bool _isMoving = false;
 
+    public TilemapPatternSwitcher patternSwitcher;
+
     void Update()
     {
         if (_isMoving)
@@ -19,22 +21,22 @@ public class PlayerMoveMent : MonoBehaviour
             return;
         }
 
-        if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W))
+        if (Input.GetKeyDown(KeyCode.UpArrow))
         {
             StartCoroutine(MovePlayer(Vector3.up));
         }
 
-        else if (Input.GetKeyDown(KeyCode.DownArrow) || Input.GetKeyDown(KeyCode.S))
+        else if (Input.GetKeyDown(KeyCode.DownArrow))
         {
             StartCoroutine(MovePlayer(Vector3.down));
         }
 
-        else if (Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.A))
+        else if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
             StartCoroutine(MovePlayer(Vector3.left));
         }
 
-        else if (Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.D))
+        else if (Input.GetKeyDown(KeyCode.RightArrow))
         {
             StartCoroutine(MovePlayer(Vector3.right));
         }
@@ -81,6 +83,12 @@ public class PlayerMoveMent : MonoBehaviour
         }
 
         transform.position = targetPos;
+
+        if (patternSwitcher != null)
+        {
+            patternSwitcher.TogglePattern();
+        }
+
         _isMoving = false;
     }
 }
