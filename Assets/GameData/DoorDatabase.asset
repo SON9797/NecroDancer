@@ -27,7 +27,7 @@ MonoBehaviour:
     State: Locked
     Direction: Front
   - ID: D004
-    Name: ???
+    Name: "\uBCF4\uC2A4\uB9C8\uC2A4\uD130"
     State: Locked
     Direction: Side
   - ID: D005
@@ -51,9 +51,9 @@ MonoBehaviour:
     State: Closed
     Direction: Side
   - ID: D010
-    Name: 
-    State: 
-    Direction: 
+    Name: ???
+    State: Locked
+    Direction: Front
   - ID: D011
     Name: 
     State: 
